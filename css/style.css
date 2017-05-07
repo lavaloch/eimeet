@@ -1,0 +1,77 @@
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/footer.css");
+@import url("components/card.css");
+@import url("components/feature.css");
+
+body {
+  margin: 0;
+  font-family: Open-sans, sans-serif;
+}
+h1, h2, h3 {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  padding-top: 150px;
+  padding-bottom: 40px;
+}
+.padded {
+  padding: 100px 0;
+}
+.wrapper-grey {
+  background: #F4F4F4;
+  padding-bottom: 50px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.all-screen {
+  height: 100vh;
+}
+
+#green {
+  color: #3BADA0;
+}
+
+#pink {
+  color: #936693;
+}
+
+#orange {
+  color: #BD6E7E;
+}
+
+#blue {
+  color: #7E92CC;
+}
+
+.last-screen {
+   height: 100vh;
+}
+
+.last-screen a {
+  border-radius: 5px;
+  padding: 15px 30px;
+  background-color: black;
+  opacity: 0.9;
+  text-decoration: none;
+  color: #FFFFFF;
+  transition: all 0.3s ease;
+}
+
+.last-screen a:hover {
+  opacity: 0.8;
+}
+
+.link-ext > a {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#map {
+  margin-top: 150px;
+}

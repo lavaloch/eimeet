@@ -1,0 +1,17 @@
+.footer {
+  background-color: black;
+  padding: 35px 30px;
+  color: white;
+}
+
+.footer li {
+  padding: 0px 15px;
+}
+
+.footer i {
+  font-size: 30px;
+}
+
+.footer i:hover {
+  color: yellow;
+}
