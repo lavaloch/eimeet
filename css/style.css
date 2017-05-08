@@ -9,7 +9,8 @@ body {
   font-family: Open-sans, sans-serif;
 }
 h1, h2, h3 {
-  font-family: Raleway, Helvetica, sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bolder;
 }
 h2 {
   font-size: 28px;
@@ -53,9 +54,14 @@ h2 {
    height: 100vh;
 }
 
+.last-screen h2 {
+  margin-bottom: 100px;
+}
+
 .last-screen a {
   border-radius: 5px;
   padding: 15px 30px;
+  margin: 100px auto;
   background-color: black;
   opacity: 0.9;
   text-decoration: none;
@@ -65,13 +71,4 @@ h2 {
 
 .last-screen a:hover {
   opacity: 0.8;
-}
-
-.link-ext > a {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-#map {
-  margin-top: 150px;
 }
